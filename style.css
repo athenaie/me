@@ -9,3 +9,7 @@ header img {
   margin-right: 5px;
   vertical-align: middle;
 }
+
+#lt {
+  border-bottom: 1px #fff solid; 
+}
