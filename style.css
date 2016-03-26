@@ -4,6 +4,10 @@ header h1 {
   font-family: "Courier New";
 }
 
+header {
+  background-color: white;
+}
+
 #logo {
   height: 1em;
   margin-right: 5px;
@@ -12,4 +16,10 @@ header h1 {
 
 #w16ee0143076cd0733d371045d77d62f4 {
   border-bottom: 1px solid black;
+}
+
+#face{
+  font-size: 1em;
+  font-family: monospace, Courier;
+  color: black;
 }
