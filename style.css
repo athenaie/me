@@ -1,5 +1,5 @@
 header h1 {
-  text-align: center;
+  text-align: left;
   font-size: 4em;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: italic;
@@ -11,11 +11,12 @@ header {
 }
 
 body {
-
+  background-color: black;
+  color: white;
 }
 
 #logo {
-  height: 1em;
+  height: 2em;
   margin: 10px 10px 10px 10px;
   vertical-align: middle;
 }
@@ -23,10 +24,6 @@ body {
 #w16ee0143076cd0733d371045d77d62f4 {
 }
 
-#face{
-  font-size: 1em;
-  font-family: monospace, Courier;
-  color: white;
-  background-color: black;
-  text-align: center;
+#me {
+
 }
