@@ -1,16 +1,22 @@
 header h1 {
   text-align: center;
   font-size: 4em;
-  font-family: "Courier New";
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 header {
   background-color: white;
+  color: black;
+}
+
+body {
+
 }
 
 #logo {
   height: 1em;
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   vertical-align: middle;
 }
 
@@ -22,4 +28,6 @@ header {
   font-size: 1em;
   font-family: monospace, Courier;
   color: white;
+  background-color: black;
+  text-align: center;
 }
