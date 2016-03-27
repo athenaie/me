@@ -3,6 +3,15 @@ header h1 {
   font-size: 4em;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: italic;
+  display: inline;
+}
+
+header h3 {
+  text-align: right;
+  font-size: 4em;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: italic;
+  display: inline;
 }
 
 header {
