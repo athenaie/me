@@ -2,7 +2,7 @@ header h1 {
   text-align: left;
   font-size: 4em;
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: italic;
+  font-style: italic;
   display: inline;
 }
 
@@ -10,7 +10,7 @@ header h3 {
   text-align: right;
   font-size: 4em;
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: italic;
+  font-style: italic;
   display: inline;
 }
 
