@@ -12,6 +12,9 @@ header h3 {
   font-family: "Lucida Console", Monaco, monospace;
   font-style: italic;
   display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 header {
