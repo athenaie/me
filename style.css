@@ -12,8 +12,7 @@ header h3 {
   font-family: "Lucida Console", Monaco, monospace;
   font-style: italic;
   display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
 }
 
 header {
@@ -35,6 +34,7 @@ body {
 #menu {
   float: right;
   vertical-align: middle;
+  margin-right: 100px;
 }
 
 #w16ee0143076cd0733d371045d77d62f4 {
