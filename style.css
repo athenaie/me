@@ -50,9 +50,9 @@ body {
 }
 
 nav {
-  height: 100%;
-
-  line-height: 3em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 
   background-color: pink;
 
