@@ -51,10 +51,6 @@ body {
 }
 
 nav {
-  position: absolute;
-  top: 50%;
-  right: 10%;
-  transform: translateY(-50%);
 
   background-color: pink;
 
