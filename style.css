@@ -33,7 +33,7 @@ header a:hover {
 
 
 header {
-  position: absolute;
+  position: static;
   background-color: white;
   color: black;
 }
