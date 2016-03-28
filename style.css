@@ -32,7 +32,7 @@ body {
   display: inline;
 }
 
-#menu {
+nav {
   float: right;
   margin-right: 100px;
 }
