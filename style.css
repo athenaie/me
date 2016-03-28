@@ -45,6 +45,10 @@ body {
   vertical-align: middle;
 }
 
+#logo a:hover{
+  border-bottom-style: none; 
+}
+
 #me {
   width: 30vw;
   float: left;
