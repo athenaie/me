@@ -21,7 +21,6 @@ header a {
   font-family: "Lucida Console", Monaco, monospace;
   font-style: italic;
 
-  display: inline;
   margin-left: 30px;
 
 }
@@ -49,8 +48,9 @@ body {
 
 nav {
   vertical-align: middle;
-  float: left;
+  float: right;
   margin-right: 100px;
+  display:inline;
 }
 
 #w16ee0143076cd0733d371045d77d62f4 {
