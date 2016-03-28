@@ -27,6 +27,10 @@ header a:hover {
   border-bottom: solid;
 }
 
+#this {
+  border-bottom: solid;
+}
+
 
 header {
   background-color: white;
