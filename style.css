@@ -48,12 +48,14 @@ body {
 #me {
   width: 30vw;
   float: left;
+  padding-right: 5px;
 }
 
 #intro {
   width: 30vw;
   float: right;
   text-align: center;
+  padding-left: 5px;
 }
 
 #intro a {
