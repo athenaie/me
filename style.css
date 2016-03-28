@@ -29,7 +29,7 @@ header a:hover {
 
 nav {
   float: right;
-  margin-right: 100px;
+  margin-right: 30px;
   display:inline;
 }
 
@@ -54,6 +54,15 @@ body {
   width: 30vw;
   float: right;
   text-align: center;
+}
+
+#intro a {
+  color: white;
+  text-decoration: none;
+}
+
+#intro a:hover {
+  border-bottom: solid;
 }
 
 #main{
