@@ -1,3 +1,14 @@
+html {
+  font-size: 12pt;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
 header a {
   color: black;
 
@@ -15,15 +26,10 @@ header a:hover {
   border-bottom: solid;
 }
 
-#this {
-  border-bottom: solid;
-}
-
-
-header {
-  width: 100%;
-  background-color: white;
-  color: black;
+nav {
+  float: right;
+  margin-right: 100px;
+  display:inline;
 }
 
 body {
@@ -38,15 +44,13 @@ body {
   vertical-align: middle;
 }
 
-nav {
-  float: right;
-  margin-right: 100px;
-  display:inline;
+#me {
+
+}
+
+#this {
+  border-bottom: solid;
 }
 
 #w16ee0143076cd0733d371045d77d62f4 {
-}
-
-#me {
-
 }
