@@ -1,6 +1,6 @@
 header h1 {
-
   text-align: left;
+  width: 100%;
 
   font-size: 4em;
   font-family: "Lucida Console", Monaco, monospace;
@@ -51,13 +51,9 @@ body {
 }
 
 nav {
-
-  background-color: pink;
-
   float: right;
   margin-right: 100px;
   display:inline;
-
 }
 
 #w16ee0143076cd0733d371045d77d62f4 {
