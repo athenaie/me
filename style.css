@@ -7,7 +7,7 @@ header h1 {
   vertical-align: middle;
 }
 
-header h3 {
+header a {
   text-align: right;
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
