@@ -15,8 +15,6 @@ header a {
 
   text-decoration: none;
 
-  text-align: right;
-
   font-size: 3em;
   font-family: "Lucida Console", Monaco, monospace;
   font-style: italic;
@@ -47,10 +45,12 @@ body {
 }
 
 nav {
-  vertical-align: middle;
+  height: 100%;
+
   float: right;
   margin-right: 100px;
   display:inline;
+
 }
 
 #w16ee0143076cd0733d371045d77d62f4 {
