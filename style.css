@@ -59,6 +59,7 @@ body {
 #intro a {
   color: white;
   text-decoration: none;
+  font-style: italic;
 }
 
 #intro a:hover {
