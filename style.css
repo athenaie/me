@@ -22,7 +22,6 @@ header a:hover {
 
 header {
   width: 100%;
-  position: fixed;
   background-color: white;
   color: black;
 }
