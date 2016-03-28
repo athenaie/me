@@ -33,6 +33,7 @@ header a:hover {
 
 
 header {
+  position: absolute;
   background-color: white;
   color: black;
 }
@@ -52,6 +53,7 @@ body {
 nav {
   position: absolute;
   top: 50%;
+  right: 10%;
   transform: translateY(-50%);
 
   background-color: pink;
