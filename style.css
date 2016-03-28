@@ -48,6 +48,8 @@ body {
 nav {
   height: 100%;
 
+  line-height: 3em;
+
   float: right;
   margin-right: 100px;
   display:inline;
