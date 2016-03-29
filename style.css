@@ -56,13 +56,13 @@ body {
   text-align: center;
 }
 
-#intro a {
+a {
   color: white;
   text-decoration: none;
   font-style: italic;
 }
 
-#intro a:hover {
+a:hover {
   border-bottom: solid;
 }
 
