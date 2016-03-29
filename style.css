@@ -66,9 +66,15 @@ body {
   border-bottom: solid;
 }
 
-#main{
+#intromain{
   padding-top: 10px;
-  max-width: 65vw;
+  max-width: 62vw;
+  margin: auto;
+}
+
+#main {
+  padding-top: 10px;
+  max-width: 75vw;
   margin: auto;
 }
 
