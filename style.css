@@ -29,7 +29,7 @@ nav a:hover {
 
 nav {
   float: right;
-  margin-right: 25px;
+  margin-right: 22.5px;
   margin-top: 27px;
 }
 
@@ -40,7 +40,7 @@ body {
 
 #logo {
   height: 4em;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 5px;
   display: inline;
   vertical-align: middle;
 }
