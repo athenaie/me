@@ -19,7 +19,7 @@ nav a {
   font-family: "Lucida Console", Monaco, monospace;
   font-style: italic;
 
-  margin: 0 22.5px;
+  margin: 0 10px;
 
 }
 
@@ -29,7 +29,7 @@ nav a:hover {
 
 nav {
   float: right;
-  margin-top: 27px;
+  margin: 27px 10px 0px 10px;
 }
 
 body {
