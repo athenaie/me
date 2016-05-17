@@ -78,6 +78,11 @@ a:hover {
   margin: auto;
 }
 
+#bats {
+  display: block;
+  margin: 0px auto;
+}
+
 #this {
   border-bottom: solid;
 }
