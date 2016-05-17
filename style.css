@@ -81,8 +81,8 @@ a:hover {
 #bats {
   display: block;
   margin: 0px auto;
-  width: 485px;
-  height: 402px;
+  width: 100%;
+  padding-top: 85%;
 }
 
 #this {
