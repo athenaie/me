@@ -13,6 +13,8 @@ header {
 nav a {
   color: black;
 
+  border-bottom: solid white;
+
   text-decoration: none;
 
   font-size: 1.5em;
@@ -24,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: solid;
+  border-bottom: black;
 }
 
 nav {
@@ -79,7 +81,7 @@ a:hover {
 }
 
 #this {
-  border-bottom: solid;
+  border-bottom: black;
 }
 
 #w16ee0143076cd0733d371045d77d62f4 {
