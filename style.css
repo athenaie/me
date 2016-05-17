@@ -81,9 +81,12 @@ a:hover {
 #bats {
   display: block;
   margin: 0px auto;
-  max-width: inherit;
+
   width: 485px;
   height: 402px;
+
+  max-width: 75vw;
+  max-height: 62vw;
 }
 
 #this {
