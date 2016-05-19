@@ -50,6 +50,8 @@ body {
 }
 
 #hiking {
+  display: block;
+
   width: 45ch;
   max-width: 37.5vw;
 
