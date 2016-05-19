@@ -37,6 +37,16 @@ body {
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  border-bottom: solid;
+}
+
 #logo {
   height: 4em;
   margin: 10px 10px 10px 5px;
@@ -49,11 +59,11 @@ body {
   float: left;
 }
 
-#hiking {
+#landscape {
   display: block;
 
-  width: 45ch;
-  max-width: 37.5vw;
+  width: inherit;
+  max-width: inherit;
 
   margin: 1em auto;
 }
@@ -62,16 +72,6 @@ body {
   width: 30vw;
   float: right;
   text-align: center;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  font-style: italic;
-}
-
-a:hover {
-  border-bottom: solid;
 }
 
 #intromain{
