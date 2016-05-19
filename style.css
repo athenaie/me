@@ -52,6 +52,8 @@ body {
 #hiking {
   width: 45ch;
   max-width: 37.5vw;
+
+  margin: 10px auto;
 }
 
 #intro {
