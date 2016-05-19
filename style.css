@@ -49,6 +49,11 @@ body {
   float: left;
 }
 
+#hiking {
+  width: 45ch;
+  max-width: 37.5vw;
+}
+
 #intro {
   width: 30vw;
   float: right;
@@ -90,12 +95,9 @@ a:hover {
 }
 
 #w3c3028bc4acdfb4ea383378c3b1eef17 {
-    margin: 1em auto; 
+    margin: 1em auto;
 }
 
 #this {
   border-bottom: solid;
-}
-
-#w16ee0143076cd0733d371045d77d62f4 {
 }
