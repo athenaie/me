@@ -68,6 +68,10 @@ a:hover {
   margin: 1em auto;
 }
 
+#innerheader {
+  width: 62vw;
+}
+
 #intro {
   width: 30vw;
   float: right;
