@@ -10,6 +10,19 @@ header {
   color: black;
 }
 
+#innerheader {
+  max-width: 75vw;
+  width: 90ch;
+  
+  margin: 0 auto;
+}
+
+#innerheaderindex {
+  width: 62vw;
+  
+  margin: 0 auto;
+}
+
 nav a {
   color: black;
 
