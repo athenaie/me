@@ -11,14 +11,14 @@ header {
 }
 
 #innerheader {
-  width: 75vw;
-  max-width: 90ch;
+  max-width: 75vw;
+  width: 90ch;
   
   margin: 0 auto;
 }
 
 #innerheaderindex {
-  width:62vw;
+  width: 62vw;
   
   margin: 0 auto;
 }
