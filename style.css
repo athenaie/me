@@ -13,13 +13,13 @@ header {
 #innerheader {
   max-width: 75vw;
   width: 90ch;
-  
+
   margin: 0 auto;
 }
 
 #innerheaderindex {
   width: 62vw;
-  
+
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: solid;
 }
 
 #logo {
