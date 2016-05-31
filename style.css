@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  border-bottom: solid;
+  text-decoration: underline;
 }
 
 #logo {
