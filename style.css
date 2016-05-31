@@ -10,6 +10,19 @@ header {
   color: black;
 }
 
+#innerheader {
+  max-width: 75vw;
+  width: 90ch;
+  
+  margin: 0 auto;
+}
+
+#innerheaderindex {
+  width: 62vw;
+  
+  margin: 0 auto;
+}
+
 nav a {
   color: black;
 
@@ -19,7 +32,7 @@ nav a {
   font-family: "Lucida Console", Monaco, monospace;
   font-style: italic;
 
-  margin: 0 10px;
+  padding: 0px 0px 0px 20px;
 
 }
 
@@ -29,7 +42,7 @@ nav a:hover {
 
 nav {
   float: right;
-  margin: 27px 10px 0px 10px;
+  margin: 27px 0px 0px 0px;
 }
 
 body {
@@ -49,7 +62,7 @@ a:hover {
 
 #logo {
   height: 4em;
-  margin: 10px 10px 10px 5px;
+  margin: 10px 0px;
   display: inline;
   vertical-align: middle;
 }
