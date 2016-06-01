@@ -30,18 +30,20 @@ nav a {
 
   font-size: 1em;
   font-family: "Lucida Console", Monaco, monospace;
+  font-style: inherit;
 
   margin: 0px 0px 0px 20px;
-
 }
 
 nav a:hover {
   border-bottom: solid;
+  font-style: inherit;
 }
 
 nav {
   float: right;
   margin: 15px 0px 0px 0px;
+  font-style: normal;
 }
 
 body {
