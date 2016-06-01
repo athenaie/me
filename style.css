@@ -54,6 +54,7 @@ body {
 a {
   color: white;
   text-decoration: none;
+  font-style: italic;
 }
 
 a:hover {
