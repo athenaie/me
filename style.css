@@ -95,11 +95,9 @@ h2 {
 #landscape {
   display: block;
 
-  width: inherit;
-  max-width: inherit;
+  width: 100%;
 
   margin: 1em auto;
-  box-sizing: inherit;
 }
 
 #intro {
