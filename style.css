@@ -99,6 +99,7 @@ h2 {
   max-width: inherit;
 
   margin: 1em auto;
+  box-sizing: inherit;
 }
 
 #intro {
