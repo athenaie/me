@@ -94,13 +94,13 @@ h2 {
 }
 
 #intro {
+  background-color: black;
   width: 30vw;
   float: right;
   text-align: center;
 }
 
 #intromain{
-  background-color: black;
   padding-top: 10px;
   max-width: 62vw;
   margin: auto;
