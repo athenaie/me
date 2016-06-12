@@ -5,9 +5,15 @@ html {
 
 header {
   width: 100%;
-
-  background-color: white;
   color: black;
+}
+
+body {
+  color: white;
+  margin: 0;
+
+  background-image: url("pictures/background.JPG");
+  background-size: cover;
 }
 
 #innerheader {
@@ -44,12 +50,6 @@ nav {
   float: right;
   margin: 15px 0px 0px 0px;
   font-style: normal;
-}
-
-body {
-  background-color: black;
-  color: white;
-  margin: 0;
 }
 
 a {
@@ -106,6 +106,8 @@ h2 {
 }
 
 #main {
+  background-color: black;
+
   padding-top: 10px;
   max-width: 75vw;
   width: 90ch;
