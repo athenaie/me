@@ -1,6 +1,7 @@
 html {
   font-size: 12pt;
   font-family: "Lucida Console", Monaco, monospace;
+  height: 100%;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
 body {
   color: white;
   margin: 0;
+  height: 100%;
 
   background-image: url("pictures/background.JPG");
   background-size: cover;
