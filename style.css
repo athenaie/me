@@ -103,15 +103,17 @@ h2 {
 #intro {
   background-color: black;
   width: 30vw;
+
+  padding: 30px;
+
   float: right;
   text-align: center;
+  box-sizing: border-box;
 }
 
 #intromain{
-  padding: 30px;
   max-width: 62vw;
   margin: auto;
-  box-sizing: border-box;
 }
 
 #main {
