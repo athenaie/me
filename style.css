@@ -2,6 +2,7 @@ html {
   font-size: 12pt;
   font-family: "Lucida Console", Monaco, monospace;
   height: 100%;
+  box-sizing: border-box;
 }
 
 header {
@@ -109,7 +110,7 @@ h2 {
 }
 
 #intromain{
-  padding: 10px;
+  padding: 30px;
   max-width: 62vw;
   margin: auto;
 }
@@ -117,7 +118,7 @@ h2 {
 #main {
   background-color: black;
 
-  padding: 10px;
+  padding: 30px;
   max-width: 75vw;
   width: 90ch;
   margin: auto;
