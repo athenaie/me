@@ -107,19 +107,20 @@ h2 {
   text-align: center;
 }
 
-#intromain{
-  padding-top: 10px;
-  max-width: 62vw;
+#intromain #main {
+  padding: 10px;
   margin: auto;
+}
+
+#intromain{
+  max-width: 62vw;
 }
 
 #main {
   background-color: black;
 
-  padding-top: 10px;
   max-width: 75vw;
   width: 90ch;
-  margin: auto;
 }
 
 #bats {
