@@ -128,13 +128,13 @@ h2 {
 
 #bats {
   display: block;
-  margin: 1em auto;
+  margin-top: 1em;
 
   width: 485px;
   height: 402px;
 
-  max-width: 75vw;
-  max-height: 62vw;
+  max-width: 60vw;
+  max-height: 50vw;
 }
 
 #w3c3028bc4acdfb4ea383378c3b1eef17 {
