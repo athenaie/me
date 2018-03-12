@@ -149,3 +149,96 @@ h2 {
 #this {
   border-bottom: solid;
 }
+
+
+@media only screen and (max-device-width: 1000px) and (orientation: portrait) {
+  #main {
+    width: 75vw;
+    font-size: 2em;
+    margin-bottom: 12.5vw;
+  }
+
+  #intromain{
+    width: 75vw;
+  }
+
+  #intro {
+    width: 75vw;
+    font-size: 2em;
+    margin: 12.5vw 0px;
+  }
+
+  #intromain{
+    max-width: 75vw;
+    margin: auto;
+  }
+
+  #me {
+    width: 75vw;
+    float: none;
+  }
+
+  nav a {
+    font-size: 2em;
+    padding: 0px;
+  }
+
+  nav {
+    margin: 0px;
+    height: 12.5vw;
+    font-style: normal;
+  }
+
+  #bats-div {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-device-width: 1000px) and (orientation: landscape) {
+  #main {
+    width: 75vw;
+    font-size: 2em;
+    margin-bottom: 12.5vw;
+  }
+
+  #intromain{
+    width: 75vw;
+  }
+
+  #intro {
+    background-color: black;
+    width: 100%;
+    font-size: 2em;
+  
+    text-align: center;
+    margin-bottom: 12.5vw; 
+  }
+
+  #intromain{
+    max-width: 75vw;
+    margin: auto;
+    font-size: 0.75em;
+  }
+
+  #me {
+    display: none;
+  }
+
+  nav a {
+    font-size: 2em;
+    padding: 0px;
+  }
+
+  nav {
+    height: 12.5vw;
+    margin: 0px;
+    font-style: normal;
+  }
+
+  #bats-div {
+    display: none;
+  }
+
+}
+
