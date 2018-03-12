@@ -154,7 +154,7 @@ h2 {
 @media only screen and (max-device-width: 1000px) and (orientation: portrait) {
   #main {
     width: 75vw;
-    font-size: 3em;
+    font-size: 24pt;
     margin-bottom: 12.5vw;
   }
 
