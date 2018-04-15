@@ -20,6 +20,7 @@ const styles = theme => ({
         height: "15px",
         fontSize: "0.8em",
         padding: "8px",
+        textTransform: "capitalize",
     },
     info: {
         flex: "1 0",
