@@ -15,7 +15,7 @@ const styles = theme => ({
         width: "47vmax",
         maxWidth: "calc(100vw - 20px)",
         height: "53vmax",
-        maxHeight: "calc(100vh - 40px)",
+        maxHeight: "calc(100vh - 90px)",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -49,20 +49,13 @@ const styles = theme => ({
         alignItems: "center",
     },
     button: {
-        marginBottom: "10px"
+        marginBottom: "0px",
+        width: "100%",
+        height: "48px"
     },
     icon: {
         color: theme.palette.primary.main,
     },
-    "@media screen and (orientation: landscape)": {
-        home: {
-            flexDirection: "row",
-        },
-        button: {
-            marginBottom: "0px",
-            marginRight: "10px"
-        },
-    }
 });
 
 export default styles;
