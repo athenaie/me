@@ -4,17 +4,18 @@ const styles = theme => ({
         width: "calc(4.4 * 1.5 * 100vmax)",
         height: "calc(1.5 * 100vmax)",
         left: "-210vmax",
-        top: "-10vmax"
+        top: "-35vmax"
     },
     container: {
         height: "2000px",
     },
     cardbox: {
         position: "absolute",
-        top: "10px",
-        left: "10px",
-        width: "calc(100vw - 20px)",
-        height: "26vmax",
+        top: "16vmax",
+        left: "38vmax",
+        width: "36vmax",
+        height: "24vmax",
+        transform: "rotate3D(1,0.5,0.35,20deg)",
         maxHeight: "calc(100vh - 40px)",
         display: "flex",
         flexDirection: "column",
@@ -28,6 +29,7 @@ const styles = theme => ({
         fontFamily: theme.fonts.regular,
         display: "flex",
         flexDirection: "column",
+        transform: "skew(3.5deg,0deg)"
     },
     heading: {
         fontFamily: theme.fonts.dainty,
@@ -56,6 +58,19 @@ const styles = theme => ({
     },
     icon: {
         color: theme.palette.primary.main,
+    },
+    "@media (max-width: 1000px)": {
+        image: {
+            top: "-30vmax"
+        },
+        cardbox: {
+            width: "calc(100vw - 20px)",
+            height: "40vmax",
+            maxHeight: "calc(100vh - 40px)",
+            transform: "unset",
+            left: "10px",
+            top: "10px"
+        }
     }
 });
 
