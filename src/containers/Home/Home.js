@@ -44,7 +44,7 @@ class Home extends Component {
             <Button component={Link} to="/about" variant="raised" color="secondary" size="small" className={classes.button}>About</Button> 
             <Button component={Link} to="/contact" variant="raised" color="secondary" size="small" className={classes.button}>Contact</Button> 
             <Button component={Link} to="/trivia" variant="raised" color="secondary" size="small" className={classes.button}>Trivia</Button> 
-            <Button component={Link} to="/about" variant="raised" color="secondary" size="small" className={classes.button}>Projects</Button> 
+            <Button component={Link} to="/projects" variant="raised" color="secondary" size="small" className={classes.button}>Projects</Button> 
             </div>
 {/*             <img src={street} className={classes.image} alt="street" /> */}
         </div>

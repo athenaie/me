@@ -12,6 +12,7 @@ import Trivia from "./containers/Trivia/Trivia";
 import Volunteering from "./containers/Trivia/Volunteering/Volunteering";
 import Library from "./containers/Trivia/Library/Library";
 import Hiking from "./containers/Trivia/Hiking/Hiking";
+import Projects from "./containers/Projects/Projects";
 
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
             <Route path="/trivia/library" component={Library}/>
             <Route path="/trivia/hiking" component={Hiking}/>
             <Route path="/trivia" component={Trivia}/>
+            <Route path="/projects" component={Projects}/>
             <Route path="/" component={Home}/>
           </Switch>
         </BrowserRouter>
