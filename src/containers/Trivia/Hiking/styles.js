@@ -41,6 +41,7 @@ const styles = theme => ({
     },
     content: {
         overflowY: "auto",
+        zIndex: "1"
     },
     home: {
         position: "absolute",

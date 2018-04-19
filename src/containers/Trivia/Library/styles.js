@@ -37,7 +37,8 @@ const styles = theme => ({
     },
     content: {
         overflowY: "auto",
-        overflowX: "hidden"
+        overflowX: "hidden",
+        zIndex: "1"
     },
     home: {
         position: "absolute",
