@@ -55,16 +55,6 @@ class Trivia extends Component {
                 </div>
             </div>
             <div>
-                <Typography className={classes.sectionheading}>My library</Typography>
-                <p>
-                I enjoy cataloging and reading from my large personal collection of over 900 books.
-                I am also a very active
-                <a href="https://www.librarything.com/wiki/index.php/Helper_badges">Helper</a>
-                on LibraryThing, the website where I catalog my books. Below is a selection of
-                books from my library.
-                </p>
-
-                <div id="w3c3028bc4acdfb4ea383378c3b1eef17"></div><script type="text/javascript" charSet="UTF-8" src="https://www.librarything.com/widget_get.php?userid=starwing&theID=w3c3028bc4acdfb4ea383378c3b1eef17"></script>
                 <Typography className={classes.sectionheading}>Hiking</Typography>
                 <Typography>
                     I love the outdoors, so I spend as much time exploring nature as I can.
