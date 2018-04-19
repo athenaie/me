@@ -70,6 +70,9 @@ const styles = theme => ({
             transform: "unset",
             left: "10px",
             top: "10px"
+        },
+        card: {
+            transform: "unset"
         }
     }
 });
