@@ -4,7 +4,7 @@ const styles = theme => ({
         width: "calc(4.4 * 1.5 * 100vmax)",
         height: "calc(1.5 * 100vmax)",
         left: "-466.3vmax",
-        top: "-60vmax"
+        top: "-70vmax"
     },
     container: {
         height: "2000px",
@@ -70,7 +70,7 @@ const styles = theme => ({
         opacity: "0",
         zIndex:"1",
         transition: "opacity 250ms",
-        clipPath: "polygon(24vmax 28.5vmax, 33.3vmax 28.5vmax, 33.3vmax 54.2vmax, 24vmax 54vmax)",
+        clipPath: "polygon(23.9vmax 18.5vmax, 33.3vmax 18.4vmax, 33.3vmax 44.2vmax, 23.9vmax 44vmax)",
         "&:hover":{
             opacity: "1",
         }
@@ -85,7 +85,7 @@ const styles = theme => ({
         opacity: "0",
         zIndex:"1",
         transition: "opacity 250ms",
-        clipPath: "polygon(36vmax 28.5vmax, 45.5vmax 28.2vmax, 45.7vmax 54.5vmax, 36.3vmax 54.3vmax)",
+        clipPath: "polygon(36vmax 18.5vmax, 45.5vmax 18.2vmax, 45.7vmax 44.5vmax, 36.3vmax 44.3vmax)",
         "&:hover":{
             opacity: "1",
         }
@@ -100,7 +100,7 @@ const styles = theme => ({
         opacity: "0",
         zIndex:"1",
         transition: "opacity 250ms",        
-        clipPath: "polygon(53.8vmax 28vmax, 63.6vmax 28vmax, 63.9vmax 54.5vmax, 54vmax 54.4vmax)",
+        clipPath: "polygon(53.8vmax 18vmax, 63.6vmax 18vmax, 63.9vmax 44.5vmax, 54vmax 44.5vmax)",
         "&:hover":{
             opacity: "1",
         }
@@ -115,7 +115,7 @@ const styles = theme => ({
         opacity: "0",
         zIndex:"1",
         transition: "opacity 250ms",        
-        clipPath: "polygon(66.6vmax 27.9vmax, 76.2vmax 27.9vmax, 76.4vmax 54.3vmax, 66.9vmax 54.4vmax)",
+        clipPath: "polygon(66.6vmax 17.9vmax, 76.2vmax 17.9vmax, 76.4vmax 44.3vmax, 66.9vmax 44.4vmax)",
         "&:hover":{
             opacity: "1",
         }
@@ -127,7 +127,7 @@ const styles = theme => ({
     },
     head1container: {
         position: "absolute",
-        top: "39vmax",
+        top: "29vmax",
         left: "24vmax",
         width: "9.3vmax",
         display: "flex",
@@ -138,7 +138,7 @@ const styles = theme => ({
     },
     head2container: {
         position: "absolute",
-        top: "39vmax",
+        top: "29vmax",
         left: "36.2vmax",
         width: "9.3vmax",
         display: "flex",
@@ -149,7 +149,7 @@ const styles = theme => ({
     },
     head3container: {
         position: "absolute",
-        top: "39vmax",
+        top: "29vmax",
         left: "54vmax",
         width: "9.6vmax",
         display: "flex",
@@ -160,7 +160,7 @@ const styles = theme => ({
     },
     head4container: {
         position: "absolute",
-        top: "39vmax",
+        top: "29vmax",
         left: "66.8vmax",
         width: "9.4vmax",
         display: "flex",
@@ -185,7 +185,10 @@ const styles = theme => ({
     link: {
         textDecoration: "none"
     },
-    "@media (max-width: 800px)": {
+    "@media (max-width: 1000px)": {
+        image: {
+            top: "-30vmax"
+        },
         head1container: {
             position: "relative",
             left: "0px",
