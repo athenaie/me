@@ -30,8 +30,8 @@ class Trivia extends Component {
                 </Link>
                 <div className={classes.head1container}>
                     <Link to={"/trivia/volunteering"} className={classes.link}>
-                        <Card className={classes.head1card}>
-                            <Typography className={classes.head1}>Volunteering</Typography>
+                        <Card className={classes.headcard}>
+                            <Typography className={classes.head}>Volunteering</Typography>
                         </Card>
                     </Link>
                 </div>
@@ -39,8 +39,17 @@ class Trivia extends Component {
                 </Link>
                 <div className={classes.head2container}>
                     <Link to={"/trivia/library"} className={classes.link}>
-                        <Card className={classes.head2card}>
-                            <Typography className={classes.head2}>My Library</Typography>
+                        <Card className={classes.headcard}>
+                            <Typography className={classes.head}>My Library</Typography>
+                        </Card>
+                    </Link>
+                </div>
+                <Link to={"/trivia/hiking"} className={classes.building3}>
+                </Link>
+                <div className={classes.head3container}>
+                    <Link to={"/trivia/hiking"} className={classes.link}>
+                        <Card className={classes.headcard}>
+                            <Typography className={classes.head}>Hiking</Typography>
                         </Card>
                     </Link>
                 </div>
