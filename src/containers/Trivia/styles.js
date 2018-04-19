@@ -108,6 +108,7 @@ const styles = theme => ({
     head: {
         fontFamily: theme.fonts.dainty,
         fontWeight: "bold",
+        color: theme.palette.primary.main,
     },
     head1container: {
         position: "absolute",
