@@ -11,9 +11,18 @@ import Contact from "./containers/Contact/Contact";
 import Trivia from "./containers/Trivia/Trivia";
 import Volunteering from "./containers/Trivia/Volunteering/Volunteering";
 import Library from "./containers/Trivia/Library/Library";
+import Hiking from "./containers/Trivia/Hiking/Hiking";
 
 
 class App extends Component {
+  state = {
+    loaded: false
+  }
+  
+  handleLoaded = () => {
+    this.setState({loaded: true});
+  }
+
   render() {
     return (
       <MuiThemeProvider theme={theme}>
@@ -24,6 +33,7 @@ class App extends Component {
             <Route path="/contact" component={Contact}/>
             <Route path="/trivia/volunteering" component={Volunteering}/>
             <Route path="/trivia/library" component={Library}/>
+            <Route path="/trivia/hiking" component={Hiking}/>
             <Route path="/trivia" component={Trivia}/>
             <Route path="/" component={Home}/>
           </Switch>

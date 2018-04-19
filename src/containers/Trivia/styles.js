@@ -134,8 +134,8 @@ const styles = theme => ({
     head3container: {
         position: "absolute",
         top: "34vmax",
-        left: "55vmax",
-        width: "14vmax",
+        left: "57.1vmax",
+        width: "9.58vmax",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -181,7 +181,7 @@ const styles = theme => ({
             pointerEvents: "auto",
             marginBottom: "10px",
             width: "20vw",
-            minWidth: "100px",
+            minWidth: "150px",
             textAlign: "center"
         },
         buttoncontainer: {

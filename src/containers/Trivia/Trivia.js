@@ -35,10 +35,10 @@ class Trivia extends Component {
                         </Card>
                     </Link>
                 </div>
-                <Link to={"/trivia/library"} className={classes.building2}>
+                <Link onClick={this.forceUpdate} to={"/trivia/library"} className={classes.building2}>
                 </Link>
                 <div className={classes.head2container}>
-                    <Link to={"/trivia/library"} className={classes.link}>
+                    <Link onClick={this.forceUpdate} to={"/trivia/library"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>My Library</Typography>
                         </Card>
@@ -53,16 +53,6 @@ class Trivia extends Component {
                         </Card>
                     </Link>
                 </div>
-            </div>
-            <div>
-                <Typography className={classes.sectionheading}>Hiking</Typography>
-                <Typography>
-                    I love the outdoors, so I spend as much time exploring nature as I can.
-                    I particularly enjoy hiking though, as it allows me to see places that
-                    most people never will.
-                    I took the photo below, and the one you see in the background, while
-                    hiking in Banff National Park.
-                </Typography>
             </div>
             <div className={classes.home}>
                 <Button component={Link} to="/home" variant="raised" color="secondary" className={classes.button}>

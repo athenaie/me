@@ -60,7 +60,7 @@ const styles = theme => ({
     },
     library: {
         backgroundColor: "white !important",
-        height: "180px",
+        height: "20vmax",
         width: "78vmax",
     },
     "@media (max-width: 800px)": {
@@ -72,6 +72,10 @@ const styles = theme => ({
             height: "40vmax",
             maxHeight: "calc(100vh - 40px)",
         },
+        library: {
+            width: "calc(155vw - 40px)",
+            height: "40vw",
+        }
     }
 });
 
