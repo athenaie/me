@@ -26,37 +26,37 @@ class Projects extends Component {
                 </Card>
             </div>
             <div className={classes.buttoncontainer}>
-                <Link to={"/trivia/volunteering"} className={classes.building1}>
+                <Link to={"/projects"} className={classes.building1}>
                 </Link>
                 <div className={classes.head1container}>
-                    <Link to={"/trivia/volunteering"} className={classes.link}>
+                    <Link to={"/projects"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>Capstone</Typography>
                         </Card>
                     </Link>
                 </div>
-                <Link onClick={this.forceUpdate} to={"/trivia/library"} className={classes.building2}>
+                <Link to={"/projects"} className={classes.building2}>
                 </Link>
                 <div className={classes.head2container}>
-                    <Link onClick={this.forceUpdate} to={"/trivia/library"} className={classes.link}>
+                    <Link to={"/projects"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>Website</Typography>
                         </Card>
                     </Link>
                 </div>
-                <Link to={"/trivia/hiking"} className={classes.building3}>
+                <Link to={"/projects"} className={classes.building3}>
                 </Link>
                 <div className={classes.head3container}>
-                    <Link to={"/trivia/hiking"} className={classes.link}>
+                    <Link to={"/projects"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>Game</Typography>
                         </Card>
                     </Link>
                 </div>
-                <Link to={"/trivia/hiking"} className={classes.building4}>
+                <Link to={"/projects"} className={classes.building4}>
                 </Link>
                 <div className={classes.head4container}>
-                    <Link to={"/trivia/hiking"} className={classes.link}>
+                    <Link to={"/projects"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>TBA</Typography>
                         </Card>
