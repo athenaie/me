@@ -66,15 +66,15 @@ const styles = theme => ({
     },
     "@media (max-width: 800px)": {
         image: {
-            top: "-127vmax"
+            top: "-90vmax"
         },
         cardbox: {
             width: "calc(100vw - 20px)",
-            height: "40vmax",
+            height: "67vmax",
             maxHeight: "calc(100vh - 40px)",
         },
         library: {
-            width: "calc(155vw - 40px)",
+            width: "calc(154.5vw - 20px)",
             height: "40vw",
         }
     }
