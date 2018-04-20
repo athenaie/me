@@ -178,6 +178,12 @@ const styles = theme => ({
         building1: {
             pointerEvents: "none"
         },
+        building2: {
+            pointerEvents: "none"
+        },
+        building3: {
+            pointerEvents: "none"
+        },
         headcard: {
             pointerEvents: "auto",
             marginBottom: "10px",
