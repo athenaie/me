@@ -2,7 +2,7 @@
   "name": "athenaie.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://athenaie.github.io/athenaie.github.io",
+  "homepage": "http://athenaie.github.io/me",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "material-ui": "^1.0.0-beta.38",
