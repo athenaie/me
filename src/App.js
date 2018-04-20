@@ -13,6 +13,10 @@ import Volunteering from "./containers/Trivia/Volunteering/Volunteering";
 import Library from "./containers/Trivia/Library/Library";
 import Hiking from "./containers/Trivia/Hiking/Hiking";
 import Projects from "./containers/Projects/Projects";
+import Capstone from "./containers/Projects/Capstone/Capstone";
+import Website from "./containers/Projects/Website/Website";
+import Game from "./containers/Projects/Game/Game";
+import TBA from "./containers/Projects/TBA/TBA";
 
 
 class App extends Component {
@@ -36,6 +40,10 @@ class App extends Component {
             <Route path="/trivia/library" component={Library}/>
             <Route path="/trivia/hiking" component={Hiking}/>
             <Route path="/trivia" component={Trivia}/>
+            <Route path="/projects/capstone" component={Capstone}/>
+            <Route path="/projects/website" component={Website}/>
+            <Route path="/projects/game" component={Game}/>
+            <Route path="/projects/tba" component={TBA}/>
             <Route path="/projects" component={Projects}/>
             <Route path="/" component={Home}/>
           </Switch>

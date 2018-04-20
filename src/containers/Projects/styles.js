@@ -17,9 +17,10 @@ const styles = theme => ({
         top: "10px",
         width: "100%",
     },
-    card: {
+    paper: {
         padding: "10px",
         maxHeight: "100%",
+        width: "55.5vmax",
         fontFamily: theme.fonts.regular,
         display: "flex",
         flexDirection: "column",
@@ -27,7 +28,8 @@ const styles = theme => ({
     heading: {
         fontFamily: theme.fonts.dainty,
         fontWeight: "bold",
-        color: theme.palette.primary.main
+        color: theme.palette.primary.main,
+        padding: "10px"
     },
     root: {
         flexGrow: 1,
@@ -205,9 +207,20 @@ const styles = theme => ({
             top: "0px",
         },
         head4container: {
-            display: "none"
+            position: "relative",
+            left: "0px",
+            top: "0px",
         },
         building1: {
+            pointerEvents: "none"
+        },
+        building2: {
+            pointerEvents: "none"
+        },
+        building3: {
+            pointerEvents: "none"
+        },
+        building4: {
             pointerEvents: "none"
         },
         headcard: {
@@ -222,6 +235,16 @@ const styles = theme => ({
             marginTop: "70px",
             paddingTop: "20vh",
         }
+    },
+    "@media (orientation: landscape) and (max-width: 800px)": {
+        buttoncontainer: {
+            flexDirection: "row",
+            justifyContent: "space-around",
+            marginTop: "0px"
+        },
+        head4container: {
+            display: "none"
+        },
     }
 });
 

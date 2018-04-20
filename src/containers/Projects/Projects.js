@@ -11,6 +11,18 @@ import HomeIcon from "material-ui-icons/Home";
 import { Typography } from "material-ui";
 
 class Projects extends Component {
+    state = {
+        open: { "1": false, "2": false, "3": false } 
+    }
+
+    handleClickOpen = (key) => {
+        this.setState({ open : { ...this.state.open, [key]: true }});
+    };
+
+    handleClose = (key) => {
+        this.setState({ open : { ...this.state.open, [key]: false }});
+      };
+
     render () {
         const { classes } = this.props;
         return (
@@ -25,38 +37,38 @@ class Projects extends Component {
                     </Typography>
                 </Card>
             </div>
-            <div className={classes.buttoncontainer}>
-                <Link to={"/projects"} className={classes.building1}>
+             <div className={classes.buttoncontainer}>
+                <Link onClick={() => this.handleClickOpen("1")} to={"/projects/capstone"} className={classes.building1}>
                 </Link>
                 <div className={classes.head1container}>
-                    <Link to={"/projects"} className={classes.link}>
+                    <Link onClick={() => this.handleClickOpen("1")} to={"/projects/capstone"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>Capstone</Typography>
                         </Card>
                     </Link>
                 </div>
-                <Link to={"/projects"} className={classes.building2}>
+                <Link onClick={() => this.handleClickOpen("2")} to={"/projects/website"} className={classes.building2}>
                 </Link>
                 <div className={classes.head2container}>
-                    <Link to={"/projects"} className={classes.link}>
+                    <Link onClick={() => this.handleClickOpen("2")} to={"/projects/website"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>Website</Typography>
                         </Card>
                     </Link>
                 </div>
-                <Link to={"/projects"} className={classes.building3}>
+                <Link onClick={() => this.handleClickOpen("3")} to={"/projects/game"} className={classes.building3}>
                 </Link>
                 <div className={classes.head3container}>
-                    <Link to={"/projects"} className={classes.link}>
+                    <Link onClick={() => this.handleClickOpen("3")} to={"/projects/game"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>Game</Typography>
                         </Card>
                     </Link>
                 </div>
-                <Link to={"/projects"} className={classes.building4}>
+                <Link onClick={() => this.handleClickOpen("4")} to={"/projects/TBA"} className={classes.building4}>
                 </Link>
                 <div className={classes.head4container}>
-                    <Link to={"/projects"} className={classes.link}>
+                    <Link onClick={() => this.handleClickOpen("4")} to={"/projects/TBA"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>TBA</Typography>
                         </Card>
