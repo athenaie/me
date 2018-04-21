@@ -17,9 +17,9 @@ const styles = theme => ({
         fontFamily: theme.fonts.dainty,
         fontWeight: "bold",
         color: theme.palette.primary.main,
-        height: "15px",
-        fontSize: "0.8em",
-        padding: "8px",
+        fontSize: "1.5em",
+        minWidth: "100px",
+        padding: "10px",
         textTransform: "capitalize",
     },
     info: {
@@ -51,7 +51,14 @@ const styles = theme => ({
         color: theme.palette.primary.main,
         fontFamily: theme.fonts.regular,
     },
-    "@media (max-width: 500px)" : {
+    "@media (max-width: 600px)": {
+        button: {
+            fontSize: "0.8em",
+            padding: "8px",
+            minWidth: "58px"
+        }
+    },
+    "@media (max-width: 500px)": {
         card: {
             flexDirection: "column"
         },
