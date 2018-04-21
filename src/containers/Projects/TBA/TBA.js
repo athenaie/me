@@ -24,7 +24,10 @@ class TBA extends Component {
                 </Typography>
                 <div className={classes.content}>
                     <p>
-                    Check back for future project ideas!
+                        Check back for future project ideas!
+                    </p>
+                    <p>
+                        To see all my publically available projects, check out my <a href="https://github.com/athenaie/">GitHub account</a>.
                     </p>
                 </div>
             </Card>

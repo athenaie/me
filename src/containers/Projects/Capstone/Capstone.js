@@ -32,6 +32,9 @@ class Capstone extends Component {
                     <p>
                         I worked mainly on creating a responsive design using primarily Material-UI components.
                     </p>
+                    <p>
+                        Our project was featured in a &nbsp;<a href="http://calgaryherald.com/news/local-news/schulich-school-of-engineering-students-unveil-visionary-projects">Calgary Herald article</a>&nbsp; about the University of Calgary's Capstone fair.
+                    </p>
                 </div>
             </Card>
         </div>

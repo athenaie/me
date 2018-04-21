@@ -24,9 +24,10 @@ class Website extends Component {
         </Typography>
         <div className={classes.content}>
             <p>
-                To build this website, I used my knowledge of React.<br/>
-                A link is probably unnecessary, but I put one &nbsp;<Link to={"/me"}>here</Link>&nbsp;
-                anyway.
+                To build this website, I used my experience with React.
+            </p>
+            <p>
+                This app is built primarily with Material-UI components, with a mobile-friendly design.
             </p>
         </div>
         </Card>
