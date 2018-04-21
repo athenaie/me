@@ -33,7 +33,7 @@ class App extends Component {
       <MuiThemeProvider theme={theme}>
         <BrowserRouter>
           <Switch>
-            <Route path="/home" component={Home}/>
+            <Route path="/me" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/trivia/volunteering" component={Volunteering}/>

@@ -76,7 +76,7 @@ class Projects extends Component {
                 </div>
             </div>
             <div className={classes.home}>
-                <Button component={Link} to="/home" variant="raised" color="secondary" className={classes.button}>
+                <Button component={Link} to="/me" variant="raised" color="secondary" className={classes.button}>
                     <HomeIcon className={classes.icon}/>
                 </Button>
             </div>
