@@ -35,10 +35,10 @@ class Trivia extends Component {
                         </Card>
                     </Link>
                 </div>
-                <Link onClick={this.forceUpdate} to={"/trivia/library"} className={classes.building2}>
+                <Link to={"/trivia/library"} className={classes.building2}>
                 </Link>
                 <div className={classes.head2container}>
-                    <Link onClick={this.forceUpdate} to={"/trivia/library"} className={classes.link}>
+                    <Link to={"/trivia/library"} className={classes.link}>
                         <Card className={classes.headcard}>
                             <Typography className={classes.head}>My Library</Typography>
                         </Card>
