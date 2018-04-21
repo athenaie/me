@@ -71,7 +71,7 @@ const styles = theme => ({
     },
     "@media (max-width: 350px)": {
         content: {
-            fontSize: "0.67em"
+            fontSize: "0.65em"
         },
     },
 });
