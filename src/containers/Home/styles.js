@@ -60,6 +60,11 @@ const styles = theme => ({
             marginTop: "10px"
         }
     },
+    "@media (max-width: 450px)": {
+        footer: {
+            marginBottom: "44px"
+        }
+    },
     "@media (max-height: 600px)": {
         text: {
             width: "70vw"
