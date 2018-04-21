@@ -62,7 +62,7 @@ const styles = theme => ({
     },
     "@media (max-width: 450px)": {
         footer: {
-            marginBottom: "44px",
+            marginBottom: "calc(100vw * 0.23)",
         },
         me: {
             height: "25vh"
