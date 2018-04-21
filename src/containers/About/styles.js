@@ -28,7 +28,6 @@ const styles = theme => ({
         fontFamily: theme.fonts.regular,
         display: "flex",
         flexDirection: "column",
-        overflow: "hidden"
     },
     heading: {
         fontFamily: theme.fonts.dainty,
@@ -64,8 +63,17 @@ const styles = theme => ({
         },
         content: {
             fontSize: "0.75em"
+        },
+        cardbox: {
+            height: "unset",
+            width: "unset"
         }
-    }
+    },
+    "@media (max-width: 350px)": {
+        content: {
+            fontSize: "0.67em"
+        },
+    },
 });
 
 export default styles;
