@@ -25,7 +25,12 @@ class Capstone extends Component {
                 <div className={classes.content}>
                     <p>
                         A web application to facilitate connecting medical researchers and patients eligible for their trials.<br/>
-                        I works on the front-end, which we built in React.
+                    </p>
+                    <p>
+                        I worked on the front-end, which we built in React.
+                    </p>
+                    <p>
+                        I worked mainly on creating a responsive design using primarily Material-UI components.
                     </p>
                 </div>
             </Card>
