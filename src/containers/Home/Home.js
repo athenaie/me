@@ -19,7 +19,7 @@ class Home extends Component {
             height: "calc(100vw * 0.23)",
             maxHeight: "40vh",
             backgroundImage: "url(" + street + ")",
-            backgroundSize: "100% auto",
+            backgroundSize: "112% auto",
         }
         return (
         <div className={classes.parent}>
