@@ -28,6 +28,7 @@ const styles = theme => ({
         fontFamily: theme.fonts.regular,
         display: "flex",
         flexDirection: "column",
+        overflow: "hidden"
     },
     heading: {
         fontFamily: theme.fonts.dainty,
