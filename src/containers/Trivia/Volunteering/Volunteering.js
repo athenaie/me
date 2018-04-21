@@ -18,22 +18,24 @@ class Volunteering extends Component {
             <img src={street} alt="street" className={classes.image}/>
         </div>
         <div className={classes.cardbox}>
-        <Card className={classes.card}>
-        <Typography variant="headline" className={classes.heading}>
-            Volunteering
-        </Typography>
-        <div className={classes.content}>
-        I am the former VP Events for the Electrical, Software, and Computer Engineering
-    Students Society.
-        </div>
-        </Card>
+            <Card className={classes.card}>
+                <Typography variant="headline" className={classes.heading}>
+                    Volunteering
+                </Typography>
+                <div className={classes.content}>
+                    <p>
+                        I am the former VP Events for the Electrical, Software, and Computer Engineering
+                        Students Society.
+                    </p>
+                </div>
+            </Card>
         </div>
         <div className={classes.home}>
-        <Button component={Link} to="/trivia" variant="raised" color="secondary" className={classes.button}>
-            <Typography variant="headline" className={classes.heading}>
-                Trivia
-            </Typography>
-        </Button>
+            <Button component={Link} to="/trivia" variant="raised" color="secondary" className={classes.button}>
+                <Typography variant="headline" className={classes.heading}>
+                    Trivia
+                </Typography>
+            </Button>
         </div>
         </Fragment>
         );

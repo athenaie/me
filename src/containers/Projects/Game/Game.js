@@ -20,21 +20,23 @@ class Game extends Component {
             <img src={street} alt="street" className={classes.image}/>
         </div>
         <div className={classes.cardbox}>
-        <Card className={classes.card}>
-        <Typography variant="headline" className={classes.heading}>
-            Game 
-        </Typography>
-        <div className={classes.content}>
-            This is the first game I made when I was introduced to programming principles.
-        </div>
-        </Card>
+            <Card className={classes.card}>
+                <Typography variant="headline" className={classes.heading}>
+                    Game 
+                </Typography>
+                <div className={classes.content}>
+                    <p>
+                        This is the first game I made when I was introduced to programming principles.
+                    </p>
+                </div>
+            </Card>
         </div>
         <div className={classes.home}>
-        <Button component={Link} to="/projects" variant="raised" color="secondary" className={classes.button}>
-        <Typography variant="headline" className={classes.heading}>
-             Projects   
-        </Typography>
-        </Button>
+            <Button component={Link} to="/projects" variant="raised" color="secondary" className={classes.button}>
+                <Typography variant="headline" className={classes.heading}>
+                     Projects   
+                </Typography>
+            </Button>
         </div>
         </Fragment>
         );

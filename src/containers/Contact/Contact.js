@@ -24,9 +24,11 @@ class Contact extends Component {
             Contact me
         </Typography>
         <div className={classes.content}>
-If you would like to ask me questions about any of my projects or are looking to
-hire a front-end software developer or a software tester please send me an email
-at badenm42@gmail.com.
+            <p>
+                If you would like to ask me questions about any of my projects or are looking to
+                hire a front-end software developer or a software tester please send me an email
+                at badenm42@gmail.com.
+            </p>
         </div>
         </Card>
         </div>

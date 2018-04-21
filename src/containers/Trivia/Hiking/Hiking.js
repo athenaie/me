@@ -19,28 +19,28 @@ class Hiking extends Component {
             <img src={street} alt="street" className={classes.image}/>
         </div>
         <div className={classes.cardbox}>
-        <Card className={classes.card}>
-        <Typography variant="headline" className={classes.heading}>
-            Hiking
-        </Typography>
-        <div className={classes.content}>
-        <Typography>
-                    I love the outdoors, so I spend as much time exploring nature as I can.
-                    I particularly enjoy hiking though, as it allows me to see places that
-                    most people never will.
-                    I took the photo below, and the one you see in the background, while
-                    hiking in Banff National Park.
+            <Card className={classes.card}>
+                <Typography variant="headline" className={classes.heading}>
+                    Hiking
+                </Typography>
+                <div className={classes.content}>
+                    <p>
+                        I love the outdoors, so I spend as much time exploring nature as I can.
+                        I particularly enjoy hiking though, as it allows me to see places that
+                        most people never will.
+                        I took the photo below, and the one you see in the background, while
+                        hiking in Banff National Park.
+                    </p>
                     <img className={classes.landscape} src={landscape} alt="Mountains"/>
-        </Typography>
-        </div>
-        </Card>
+                </div>
+            </Card>
         </div>
         <div className={classes.home}>
-        <Button component={Link} to="/trivia" variant="raised" color="secondary" className={classes.button}>
-            <Typography variant="headline" className={classes.heading}>
-                Trivia
-            </Typography>
-        </Button>
+            <Button component={Link} to="/trivia" variant="raised" color="secondary" className={classes.button}>
+                <Typography variant="headline" className={classes.heading}>
+                    Trivia
+                </Typography>
+            </Button>
         </div>
         </Fragment>
         );

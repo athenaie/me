@@ -23,9 +23,11 @@ class Website extends Component {
             Website
         </Typography>
         <div className={classes.content}>
-        To build this website, I used my knowledge of React.<br/>
-A link is probably unnecessary, but I put one &nbsp;<Link to={"/me"}>here</Link>&nbsp;
-anyway.
+            <p>
+                To build this website, I used my knowledge of React.<br/>
+                A link is probably unnecessary, but I put one &nbsp;<Link to={"/me"}>here</Link>&nbsp;
+                anyway.
+            </p>
         </div>
         </Card>
         </div>

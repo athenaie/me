@@ -64,6 +64,11 @@ const styles = theme => ({
         height: "20vmax",
         width: "78vmax",
     },
+    "@media (max-width: 450px)": {
+        content: {
+            fontSize: "0.75em"
+        }
+    },
     "@media (max-width: 800px)": {
         image: {
             top: "-90vmax"

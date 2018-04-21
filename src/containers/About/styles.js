@@ -60,6 +60,9 @@ const styles = theme => ({
     "@media (max-width: 450px)": {
         home: {
             height: "calc(100vh - 72px)"
+        },
+        content: {
+            fontSize: "0.75em"
         }
     }
 });

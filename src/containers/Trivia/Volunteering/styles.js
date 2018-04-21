@@ -57,6 +57,11 @@ const styles = theme => ({
     icon: {
         color: theme.palette.primary.main,
     },
+    "@media (max-width: 450px)": {
+        content: {
+            fontSize: "0.75em"
+        }
+    },
     "@media (max-width: 800px)": {
         image: {
             top: "-127vmax"

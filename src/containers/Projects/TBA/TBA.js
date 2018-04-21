@@ -18,21 +18,23 @@ class TBA extends Component {
             <img src={street} alt="street" className={classes.image}/>
         </div>
         <div className={classes.cardbox}>
-        <Card className={classes.card}>
-        <Typography variant="headline" className={classes.heading}>
-            Coming soon....
-        </Typography>
-        <div className={classes.content}>
-            Check back for future project ideas!
-        </div>
-        </Card>
+            <Card className={classes.card}>
+                <Typography variant="headline" className={classes.heading}>
+                    Coming soon....
+                </Typography>
+                <div className={classes.content}>
+                    <p>
+                    Check back for future project ideas!
+                    </p>
+                </div>
+            </Card>
         </div>
         <div className={classes.home}>
-        <Button component={Link} to="/projects" variant="raised" color="secondary" className={classes.button}>
-        <Typography variant="headline" className={classes.heading}>
-             Projects   
-        </Typography>
-        </Button>
+            <Button component={Link} to="/projects" variant="raised" color="secondary" className={classes.button}>
+                <Typography variant="headline" className={classes.heading}>
+                    Projects   
+                </Typography>
+            </Button>   
         </div>
         </Fragment>
         );

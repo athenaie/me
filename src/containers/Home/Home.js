@@ -28,25 +28,24 @@ class Home extends Component {
                     <img src={me} className={classes.me} alt="street" />
                     <div className={classes.text}>
                         <Typography variant="headline" className={classes.heading}>
-                        Hey,
+                            Hey,
                         </Typography>
                         <Typography variant="headline" className={classes.heading}>
-                        I'm Marissa Baden. 
+                            I'm Marissa Baden. 
                         </Typography>
                         <br/>
                         <Typography variant="subheading" className={classes.subheading}>
-                        I am a software engineering major at the Schulich School of Engineering. 
+                            I am a software engineering major at the Schulich School of Engineering. 
                         </Typography>
                     </div>
                 </Card>
             </div>
             <div style={style} className={classes.footer}>
-            <Button component={Link} to="/about" variant="raised" color="secondary" size="small" className={classes.button}>About</Button> 
-            <Button component={Link} to="/contact" variant="raised" color="secondary" size="small" className={classes.button}>Contact</Button> 
-            <Button component={Link} to="/trivia" variant="raised" color="secondary" size="small" className={classes.button}>Trivia</Button> 
-            <Button component={Link} to="/projects" variant="raised" color="secondary" size="small" className={classes.button}>Projects</Button> 
+                <Button component={Link} to="/about" variant="raised" color="secondary" size="small" className={classes.button}>About</Button> 
+                <Button component={Link} to="/contact" variant="raised" color="secondary" size="small" className={classes.button}>Contact</Button> 
+                <Button component={Link} to="/trivia" variant="raised" color="secondary" size="small" className={classes.button}>Trivia</Button> 
+                <Button component={Link} to="/projects" variant="raised" color="secondary" size="small" className={classes.button}>Projects</Button> 
             </div>
-{/*             <img src={street} className={classes.image} alt="street" /> */}
         </div>
         );
     }

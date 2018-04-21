@@ -63,6 +63,11 @@ const styles = theme => ({
         paddingTop: "20vmax",
         marginLeft: "calc(50vw - 32.5vmin)"
     },
+    "@media (max-width: 450px)": {
+        content: {
+            fontSize: "0.75em"
+        }
+    },
     "@media (max-width: 800px)": {
         image: {
             left: "-1725vmax",
