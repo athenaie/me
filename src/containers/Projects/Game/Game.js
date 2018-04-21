@@ -15,7 +15,7 @@ class Game extends Component {
         const { classes } = this.props;
         return (
         <Fragment>
-        <Iframe id="bats" className={classes.bats} width="100vw" height="100vw" url="//scratch.mit.edu/projects/embed/12386288/?autostart=false" allowfullscreen></Iframe>
+        <Iframe id="bats" className={classes.bats} width="65vmin" height="calc(50vmin + 33px)" url="//scratch.mit.edu/projects/embed/12386288/?autostart=false" allowfullscreen></Iframe>
         <div className={classes.container}>
             <img src={street} alt="street" className={classes.image}/>
         </div>

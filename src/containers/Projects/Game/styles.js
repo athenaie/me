@@ -60,7 +60,8 @@ const styles = theme => ({
     },
     bats: {
         zIndex: "1",
-        paddingTop: "20vmax"
+        paddingTop: "20vmax",
+        marginLeft: "calc(50vw - 32.5vmin)"
     },
     "@media (max-width: 800px)": {
         image: {
