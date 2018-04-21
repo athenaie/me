@@ -57,6 +57,11 @@ const styles = theme => ({
     icon: {
         color: theme.palette.primary.main,
     },
+    "@media (max-width: 450px)": {
+        home: {
+            marginBottom: "calc(100vw * 0.23)"
+        }
+    }
 });
 
 export default styles;
