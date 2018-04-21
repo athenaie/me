@@ -56,6 +56,11 @@ const styles = theme => ({
     },
     icon: {
         color: theme.palette.primary.main,
+    },
+    "@media (max-width: 450px)": {
+        home: {
+            height: "calc(100vh - 48px)"
+        }
     }
 });
 
