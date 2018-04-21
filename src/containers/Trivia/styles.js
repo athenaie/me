@@ -159,6 +159,11 @@ const styles = theme => ({
     link: {
         textDecoration: "none"
     },
+    "@media (max-width: 450px)": {
+        home: {
+            height: "calc(100vh - 72px)"
+        },
+    },
     "@media (max-width: 800px)": {
         head1container: {
             position: "relative",

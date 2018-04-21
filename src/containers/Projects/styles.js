@@ -236,6 +236,11 @@ const styles = theme => ({
             paddingTop: "20vh",
         }
     },
+    "@media (max-width: 450px)": {
+        home: {
+            height: "calc(100vh - 72px)"
+        },
+    },
     "@media (orientation: landscape) and (max-width: 800px)": {
         buttoncontainer: {
             flexDirection: "row",
