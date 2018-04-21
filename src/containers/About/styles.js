@@ -59,7 +59,7 @@ const styles = theme => ({
     },
     "@media (max-width: 450px)": {
         home: {
-            height: "calc(100vh - 80px)"
+            height: "calc(100vh - 72px)"
         }
     }
 });
