@@ -57,7 +57,8 @@ const styles = theme => ({
     button: {
         marginBottom: "0px",
         width: "100%",
-        height: "48px"
+        height: "48px",
+        zIndex: "2"
     },
     icon: {
         color: theme.palette.primary.main,

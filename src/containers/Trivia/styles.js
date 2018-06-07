@@ -12,7 +12,7 @@ const styles = theme => ({
     cardbox: {
         display: "flex",
         flexDirection: "column",
-        alignItems: "center", 
+        alignItems: "center",
         position: "absolute",
         top: "10px",
         width: "100%",
@@ -55,7 +55,8 @@ const styles = theme => ({
     button: {
         marginBottom: "0px",
         width: "100%",
-        height: "48px"
+        height: "48px",
+        zIndex: "2"
     },
     icon: {
         color: theme.palette.primary.main,
@@ -99,7 +100,7 @@ const styles = theme => ({
         backgroundColor: theme.palette.primary.main,
         opacity: "0",
         zIndex:"1",
-        transition: "opacity 250ms",        
+        transition: "opacity 250ms",
         clipPath: "polygon(57.1vmax 33.6vmax, 64.1vmax 33.2vmax, 65.5vmax 33.4vmax, 66.8vmax 34.8vmax, 66.6vmax 48.3vmax, 65.5vmax 48.4vmax, 65.5vmax 47vmax, 60.8vmax 44vmax, 60.8vmax 42.5vmax, 60vmax 42vmax, 60vmax 41vmax, 58.5vmax 40vmax, 58.5vmax 37.8vmax, 57.8vmax 37.3vmax, 57.1vmax 37.3vmax)",
         "&:hover":{
             opacity: "1",
