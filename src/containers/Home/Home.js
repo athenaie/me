@@ -35,7 +35,7 @@ class Home extends Component {
                         </Typography>
                         <br/>
                         <Typography variant="subheading" className={classes.subheading}>
-                            I am a software engineering major at the Schulich School of Engineering. 
+                            I am a BSc in Software Engineering graduate of the Schulich School of Engineering. 
                         </Typography>
                     </div>
                 </Card>
