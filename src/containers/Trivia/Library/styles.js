@@ -21,6 +21,18 @@ const styles = theme => ({
         justifyContent: "center",
         alignItems: "center"
     },
+    bookbox: {
+        display: "flex",
+        flexWrap: "wrap",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        width: "inherit"
+    },
+    book: {
+        width: "9vmax",
+        height: "13.5vmax",
+        padding: "8px"
+    },
     card: {
         width: "90%",
         padding: "10px",
@@ -80,6 +92,10 @@ const styles = theme => ({
             width: "calc(100vw - 20px)",
             height: "67vmax",
             maxHeight: "calc(100vh - 40px)",
+        },
+        book: {
+            width: "16vw",
+            height: "24vw"
         },
         library: {
             width: "calc(154.5vw - 20px)",
