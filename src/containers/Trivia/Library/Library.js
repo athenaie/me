@@ -19,16 +19,6 @@ import Button from "material-ui/Button";
 import { Typography } from "material-ui";
 
 class Library extends Component {
-    constructor(props) {
-        super(props);
-            const script = document.createElement("script");
-
-            script.src = "https://www.librarything.com/widget_get.php?userid=starwing&theID=w3c3028bc4acdfb4ea383378c3b1eef17";
-            script.async = true;
-            script.id = "widget"
-            document.body.appendChild(script);
-    }
-
     render () {
         const { classes } = this.props;
         return (
