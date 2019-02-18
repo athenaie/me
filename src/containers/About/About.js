@@ -25,12 +25,12 @@ class About extends Component {
                 </Typography>
                 <div className={classes.content}>
                     <p>
-                        I am a fourth year Software Engineering student at the University of Calgary,
-                        expecting to graduate at the end of April. I am excited to gain more experience
+                        I am graduate of the University of Calgary, with my B.Sc. in Software Engineering (with Distintion).
+                        I am excited to gain more experience
                         in the software engineering industry after graduation.
                     </p>
                     <p>
-                        Last year I complete a 12 month internship at Hitachi ID Systems, Inc. as a
+                        During my undergrad I complete a 12 month internship at Hitachi ID Systems, Inc. as a
                         software testing intern, working on their Identity and Access Management
                         web application suite.
                     </p>
