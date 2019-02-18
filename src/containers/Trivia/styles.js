@@ -106,6 +106,21 @@ const styles = theme => ({
             opacity: "1",
         }
     },
+    building4 : {
+        position: "absolute",
+        top: "0px",
+        bottom: "0px",
+        height: "100vh",
+        width: "100vw",
+        backgroundColor: theme.palette.primary.main,
+        opacity: "0",
+        zIndex:"1",
+        transition: "opacity 250ms",
+        clipPath: "polygon(77.8vmax 50.2vmax, 78vmax 22.7vmax, 78.3vmax 22.5vmax, 90.5vmax 22.2vmax, 90.8vmax 22.7vmax, 90.5vmax 50.2vmax)",
+        "&:hover":{
+            opacity: "1",
+        }
+    },
     head: {
         fontFamily: theme.fonts.dainty,
         fontWeight: "bold",
@@ -137,6 +152,17 @@ const styles = theme => ({
         position: "absolute",
         top: "34vmax",
         left: "57.1vmax",
+        width: "9.58vmax",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        zIndex: "2",
+        pointerEvents: "none"
+    },
+    head4container: {
+        position: "absolute",
+        top: "30vmax",
+        left: "79.5vmax",
         width: "9.58vmax",
         display: "flex",
         flexDirection: "column",
@@ -181,6 +207,11 @@ const styles = theme => ({
             left: "0px",
             top: "0px",
         },
+        head4container: {
+            position: "relative",
+            left: "0px",
+            top: "0px",
+        },
         building1: {
             pointerEvents: "none"
         },
@@ -188,6 +219,9 @@ const styles = theme => ({
             pointerEvents: "none"
         },
         building3: {
+            pointerEvents: "none"
+        },
+        building4: {
             pointerEvents: "none"
         },
         headcard: {

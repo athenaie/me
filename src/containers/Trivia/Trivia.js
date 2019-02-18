@@ -53,6 +53,15 @@ class Trivia extends Component {
                         </Card>
                     </Link>
                 </div>
+                <Link to={"/trivia/hiking"} className={classes.building4}>
+                </Link>
+                <div className={classes.head4container}>
+                    <Link to={"/trivia/hiking"} className={classes.link}>
+                        <Card className={classes.headcard}>
+                            <Typography className={classes.head}>Travelling</Typography>
+                        </Card>
+                    </Link>
+                </div>
             </div>
             <div className={classes.home}>
                 <Button component={Link} to="/me" variant="raised" color="secondary" className={classes.button}>
